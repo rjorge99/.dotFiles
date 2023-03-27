@@ -8,8 +8,10 @@
 # if [ "$TMUX" = "" ]; then tmux; fi
 export ZSH="$HOME/.oh-my-zsh"
 
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#b2b2b2,underline'
+
 
 plugins=(
     git 
@@ -36,3 +38,8 @@ ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+
+#Where should I put you? 
+bindkey -s Alt+f "tmux-sessionizer\n"
