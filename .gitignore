@@ -1,7 +1,16 @@
-*.*
+.*
 Downloads
+Pictures
+Videos
 repos
 snap
+
+!.config
+.config/*
+
+!.config/i3
+
 !.zshrc
 !.tmux.conf
 !.gitignore
+
