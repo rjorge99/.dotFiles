@@ -9,6 +9,7 @@ snap
 .config/*
 
 !.config/i3
+!.config/kitty
 
 !.zshrc
 !.tmux.conf
