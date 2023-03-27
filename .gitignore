@@ -1,0 +1,7 @@
+*.*
+Downloads
+repos
+snap
+!.zshrc
+!.tmux.conf
+!.gitignore
