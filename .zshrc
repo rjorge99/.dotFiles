@@ -16,15 +16,15 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#b2b2b2,underline'
 plugins=(
     git 
     zsh-autosuggestions 
-    sudo 
-    web-search 
-    copypath 
-    copyfile 
-    copybuffer 
-    dirhistory 
-    jsontools 
-    zsh-syntax-highlighting
-    zsh-vi-mode
+    # sudo 
+    # web-search 
+    # copypath 
+    # copyfile 
+    # copybuffer 
+    # dirhistory 
+    # jsontools 
+    # zsh-syntax-highlighting
+    # zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
