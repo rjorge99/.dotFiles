@@ -42,4 +42,4 @@ export NVM_DIR="$HOME/.nvm"
 
 
 #Where should I put you? 
-bindkey -s Alt+f "tmux-sessionizer\n"
+bindkey -s ^f "tmux-sessionizer\n"
