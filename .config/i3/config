@@ -213,16 +213,18 @@ bar {
 # Quita la ventana de título y se define el grosor del borde que recubre las ventanas
 for_window [class="^.*"] border pixel 2
 
-# Usado para la version de escritorio con 2 monitores
-exec --no-startup-id /usr/bin/xrandr --output DP-0 --auto --right-of HDMI-0
-# Establece el wallpaper de fondo establecido en nitrogen
-exec --no-startup-id nitrogen --restore 
-# Natural scrolling on touchpad
-exec --no-startup-id ~/.config/i3/natural_scrolling
-
 assign [class="Google-chrome"] $ws10
 assign [class="obs"] $ws2
 
 bindsym $mod+c exec --no-startup-id google-chrome 
 bindsym $mod+o exec --no-startup-id obs
 bindsym $mod+Control+l exec --no-startup-id ~/.config/i3/i3lock-multimonitor/lock
+
+
+
+# Usado para la version de escritorio con 2 monitores
+exec --no-startup-id /usr/bin/xrandr --output DP-0 --auto --right-of HDMI-0
+# Natural scrolling on touchpad
+exec --no-startup-id ~/.config/i3/natural_scrolling
+# Establece el wallpaper de fondo establecido en nitrogen
+exec --no-startup-id nitrogen --restore 
