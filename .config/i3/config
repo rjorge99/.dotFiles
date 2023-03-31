@@ -225,4 +225,4 @@ assign [class="obs"] $ws2
 
 bindsym $mod+c exec google-chrome 
 bindsym $mod+o exec obs
-bindsym $mod+Control+l exec i3lock -t -i ~/Pictures/wallpaper2.png
+bindsym $mod+Control+l exec ~/.config/i3/i3lock-multimonitor/lock
