@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-lenguages=$(echo "typescript javascipt" | tr ' ' '\n')
-core_utils=$(echo "find xargs sed awk" | tr ' ' '\n')
-selected=$(echo  -e "$lenguages\n$core_utils" | fzf)
+selected=$(cat ~/tmux/tmux-cht-command ~/tmux/tmux-cht-languages | fzf)
 
 read -p "Query: " query
 

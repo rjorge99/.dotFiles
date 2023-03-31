@@ -5,9 +5,12 @@ Videos
 snap
 personal
 
+!tmux
+
+
+
 !.config
 .config/*
-
 !.config/i3
 !.config/kitty
 
@@ -16,4 +19,5 @@ personal
 !.gitignore
 
 !wallpapers
+
 
