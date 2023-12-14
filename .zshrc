@@ -45,3 +45,9 @@ export NVM_DIR="$HOME/.nvm"
 bindkey -s ^f "tmux-sessionizer\n"
 
 eval "$(starship init zsh)"
+
+. /usr/bin/z.sh # loads z.sh
+
+# alias
+alias bat="batcat"
+
