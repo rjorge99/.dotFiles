@@ -9,7 +9,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#b2b2b2,underline'
 
 
@@ -43,3 +43,5 @@ export NVM_DIR="$HOME/.nvm"
 
 #Where should I put you? 
 bindkey -s ^f "tmux-sessionizer\n"
+
+eval "$(starship init zsh)"

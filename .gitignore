@@ -10,9 +10,10 @@ personal
 
 
 !.config
-.config/*
+.config/nvim
 !.config/i3
 !.config/kitty
+!.config/startup.toml
 
 !.zshrc
 !.tmux.conf
