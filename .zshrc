@@ -50,4 +50,4 @@ eval "$(starship init zsh)"
 
 # alias
 alias bat="batcat"
-
+alias el="exa -l"
