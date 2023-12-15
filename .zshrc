@@ -50,4 +50,12 @@ eval "$(starship init zsh)"
 
 # alias
 alias bat="batcat"
-alias el="exa -l"
+alias v="nvim"
+
+# exa
+# exa --tree --level=2 rust/rust-ansi-parse
+# exa --ignore-glob="*case*"  
+# exa --ignore-glob="Open*|rot??.sh|*case*"
+alias el="exa -l --header --icons"   
+alias eg="exa --long --git"
+
