@@ -13,10 +13,11 @@ end
 config.default_domain = 'WSL:Ubuntu'  		-- use for windows wsl
 config.enable_tab_bar = false				-- enable/disable tabs
 config.font = wezterm.font_with_fallback {	-- fonts
-  'JetBrains Mono',
+  'JetBrainsMono Nerd Font',
   'Hack FC Ligatured',
   'FiraCode Nerd Font',
-  'LigaMonaco Nerd Font',  
+  'LigaMonaco Nerd Font',
+  'JetBrains Mono',
 }
 config.font_size = 12						-- font size
 config.window_background_opacity = 0.9		-- opacity
