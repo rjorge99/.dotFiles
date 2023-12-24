@@ -1,6 +1,8 @@
 .*
 Downloads
 Pictures
+Development
+Templates
 Videos
 snap
 personal
@@ -9,11 +11,11 @@ personal
 
 
 
-!.config
+# !.config
 .config/nvim
 !.config/i3
 !.config/kitty
-!.config/startup.toml
+!.config/starship.toml
 
 !.zshrc
 !.tmux.conf

@@ -28,6 +28,9 @@ format = '[$context(\[$namespace\])]($style) '
 [docker_context]
 disabled = true
 
+
+
+
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
 flamingo = "#f2cdcd"
