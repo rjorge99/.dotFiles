@@ -6,7 +6,7 @@
 # fi
 
 # if [ "$TMUX" = "" ]; then tmux; fi
-export ZSH="$HOME/.oh-my-zsh"
+# export ZSH="$HOME/.oh-my-zsh"
 
 
 # ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -27,7 +27,7 @@ plugins=(
     # zsh-vi-mode
 )
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
