@@ -10,7 +10,7 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
-config.default_domain = "WSL:Ubuntu" -- use for windows wsl
+-- config.default_domain = "WSL:Ubuntu" -- use for windows wsl
 config.enable_tab_bar = false -- enable/disable tabs
 config.font = wezterm.font_with_fallback({ -- fonts
 	"JetBrainsMono Nerd Font",
