@@ -8,13 +8,13 @@ end
 
 config.enable_tab_bar = false -- enable/disable tabs
 config.font = wezterm.font_with_fallback({ -- fonts
-	"JetBrainsMono Nerd Font",
-	"Hack FC Ligatured",
-	"FiraCode Nerd Font",
-	"LigaMonaco Nerd Font",
+	-- "JetBrainsMono Nerd Font",
+	-- "Hack FC Ligatured",
+	-- "FiraCode Nerd Font",
+	-- "LigaMonaco Nerd Font",
 	"JetBrains Mono",
 })
-config.font_size = 16 -- font size
+config.font_size = 19 -- font size
 config.window_background_opacity = 0.95 -- opacity
 config.color_scheme = "Catppuccin Mocha" -- color scheme
 config.window_decorations = "RESIZE" -- enable/disable window bar
