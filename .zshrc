@@ -68,3 +68,9 @@ alias gds="git diff --staged"
 alias ga="git add"
 alias gc="git commit -m"
 alias gca="git commit --amend"
+
+#tmux
+alias tm="tmux"
+alias tma="tmux attach"
+alias tmd="tmux detach"
+
