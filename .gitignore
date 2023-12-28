@@ -12,10 +12,11 @@ repos
 
 
 
-# !.config
+#!.config
 .config/nvim
 !.config/i3
 !.config/kitty
+!.config/lazygit
 !.config/starship.toml
 
 !.zshrc
