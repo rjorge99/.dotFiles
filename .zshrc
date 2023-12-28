@@ -59,3 +59,12 @@ alias v="nvim"
 alias el="exa -l --header --icons"   
 alias eg="exa --long --git"
 
+# git
+alias gp="git push"
+alias gs="git s"
+alias glg="git lg"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias ga="git add"
+alias gc="git commit -m"
+alias gca="git commit --amend"
