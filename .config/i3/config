@@ -111,8 +111,6 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
-
-# toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
@@ -137,7 +135,7 @@ set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
-set $ws9 "9"
+set $ws9 "9: Obs"
 set $ws10 "10: Chrome"
 
 # switch to workspace
@@ -214,7 +212,7 @@ bar {
 for_window [class="^.*"] border pixel 2
 
 assign [class="Google-chrome"] $ws10
-assign [class="obs"] $ws2
+assign [class="obs"] $ws9
 
 bindsym $mod+c exec --no-startup-id google-chrome 
 bindsym $mod+o exec --no-startup-id obs
@@ -223,10 +221,12 @@ bindsym $mod+Control+l exec --no-startup-id ~/.config/i3/i3lock-multimonitor/loc
 
 
 # Usado para la version de escritorio con 2 monitores
-exec --no-startup-id /usr/bin/xrandr --output DP-0 --auto --right-of HDMI-0
+# exec --no-startup-id /usr/bin/xrandr --output DP-0 --auto --right-of HDMI-0
 # Natural scrolling on touchpad
 exec --no-startup-id ~/.config/i3/natural_scrolling
 # Establece el wallpaper de fondo establecido en nitrogen
 exec --no-startup-id nitrogen --restore 
 # Mouse button inverted for left hande
-exec --no-startup-id xmodmap -e "pointer = 3 2 1 "
+# exec --no-startup-id xmodmap -e "pointer = 3 2 1 "
+
+# setxkbmap -layout "us" -variant "dvorak"
