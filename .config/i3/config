@@ -216,7 +216,8 @@ assign [class="obs"] $ws9
 
 bindsym $mod+c exec --no-startup-id google-chrome 
 bindsym $mod+o exec --no-startup-id obs
-bindsym $mod+Control+l exec --no-startup-id ~/.config/i3/i3lock-multimonitor/lock
+# bindsym $mod+Control+l exec --no-startup-id ~/.config/i3/i3lock-multimonitor/lock
+bindsym $mod+Control+l exec --no-startup-id i3lock -i ~/.config/i3/i3lock-monitor/img/background.png
 
 
 
