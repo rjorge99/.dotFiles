@@ -1,28 +1,21 @@
-# if [ "$TMUX" = "" ]; then tmux; fi
-
-
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#b2b2b2,underline'
-
-
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
+# sources
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh   # zsh-autosuggestions
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh                      # fzf
+
+
+# nvm (Node Version Manager)
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                    # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
-
-#Where should I put you? 
 bindkey -s ^f "tmux-sessionizer\n"
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)" 
-
-# . /usr/bin/z.sh # loads z.sh
 
 # alias
 alias bat="batcat"
@@ -51,7 +44,6 @@ alias tma="tmux attach"
 alias tmd="tmux detach"
 
 
-# ~/.tmux/plugins
-export PATH=$HOME/.tmux/plugins/t-smart-tmux-session-manager/bin:$PATH
-# ~/.config/tmux/plugins
-export PATH=$HOME/.config/tmux/plugins/t-smart-tmux-session-manager/bin:$PATH
+# t-smart-tmux-session-manager plugin paths
+export PATH=$HOME/.tmux/plugins/t-smart-tmux-session-manager/bin:$PATH # ~/.tmux/plugins
+export PATH=$HOME/.config/tmux/plugins/t-smart-tmux-session-manager/bin:$PATH # ~/.config/tmux/plugins
