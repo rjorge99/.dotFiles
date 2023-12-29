@@ -63,8 +63,9 @@ bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id ulauncher
-set $rofi_theme "/usr/share/rofi/themes/Arc-Dark.rasi"
-bindsym $mod+d exec rofi -show drun -config $rofi_theme -show-icons
+# set $rofi_theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+# bindsym $mod+d exec rofi -show drun -config $rofi_theme -show-icons
+bindsym $mod+d exec rofi -show drun
 # bindsym Ctrl+space exec rofi -show drun -config $rofi_theme -show-icons
 bindsym Ctrl+Shift+space exec rofi -show window -config $rofi_theme -show-icons
 # A more modern dmenu replacement is rofi:
