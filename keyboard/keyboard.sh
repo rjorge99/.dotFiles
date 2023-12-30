@@ -1,4 +1,5 @@
 #!/bin/bash
+# id=$(xinput | grep 'Translated Set 2 keyboard' | egrep -o 'id=[0-9]*' | egrep -o '[0-9]*')  verificar el uso 
 
 Icon="/home/rjorge99/keyboard/keyboard_enabled.png"
 Icoff="/home/rjorge99/keyboard/keyboard_disabled.png"
