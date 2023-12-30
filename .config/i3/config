@@ -230,5 +230,6 @@ exec --no-startup-id ~/.config/i3/natural_scrolling
 exec --no-startup-id nitrogen --restore 
 # Mouse button inverted for left hande
 # exec --no-startup-id xmodmap -e "pointer = 3 2 1 "
+exec --no-startup-id picom -b
 
 # setxkbmap -layout "us" -variant "dvorak"
