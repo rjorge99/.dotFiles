@@ -26,6 +26,7 @@ alias v="nvim"
 # exa --ignore-glob="*case*"  
 # exa --ignore-glob="Open*|rot??.sh|*case*"
 alias el="exa -l --header --icons"   
+alias ls="exa -l --header --icons"   
 alias eg="exa --long --git"
 
 # git
