@@ -14,7 +14,7 @@ config.font = wezterm.font_with_fallback({ -- fonts
 	-- "LigaMonaco Nerd Font",
 	-- "JetBrains Mono",
 })
-config.font_size = 20 -- font size
+config.font_size = 17 -- font size
 config.window_background_opacity = 0.95 -- opacity
 config.color_scheme = "Catppuccin Mocha" -- color scheme
 config.line_height = 1.1 -- line height

@@ -36,7 +36,7 @@ alias glg="git lg"
 alias gd="git diff"
 alias gds="git diff --staged"
 alias ga="git add"
-alias gc="git commit -m"
+alias gcmsg="git commit -m"
 alias gca="git commit --amend"
 
 #tmux
