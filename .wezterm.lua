@@ -5,6 +5,11 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
+
+-- For Windows
+--config.default_prog = { 'pwsh.exe', '-NoLogo' }
+--config.default_domain = 'WSL:Ubuntu'
+
 config.enable_tab_bar = false -- enable/disable tabs
 config.font = wezterm.font_with_fallback({ -- fonts
 	-- "SFMono Nerd Font",
