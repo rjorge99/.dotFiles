@@ -5,7 +5,6 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
-
 -- For Windows
 --config.default_prog = { 'pwsh.exe', '-NoLogo' }
 --config.default_domain = 'WSL:Ubuntu'
@@ -15,7 +14,10 @@ config.font = wezterm.font_with_fallback({ -- fonts
 	-- "SFMono Nerd Font",
 	-- "JetBrainsMono Nerd Font",
 	-- "Hack FC Ligatured",
-	"FiraCode Nerd Font",
+	"UbuntuMono Nerd Font Mono",
+	-- "JetBrainsMono Nerd Font",
+	-- "Hack FC Ligatured",
+	-- "FiraCode Nerd Font",
 	-- "LigaMonaco Nerd Font",
 	-- "JetBrains Mono",
 })
