@@ -27,5 +27,6 @@ config.color_scheme = "Catppuccin Mocha" -- color scheme
 config.line_height = 1.1 -- line height
 -- config.window_decorations = "RESIZE" -- enable/disable window bar
 -- config.window_background_image = "/home/rjorge99/wallpapers/groot.jpg"
+config.window_close_confirmation = "NeverPrompt"
 
 return config
