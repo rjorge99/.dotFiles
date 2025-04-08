@@ -3,7 +3,8 @@ ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 
 
 # sources
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh   # zsh-autosuggestions
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh  # zsh-autosuggestions
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  # zsh-syntax-highlighting
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh                      # fzf
 
 
