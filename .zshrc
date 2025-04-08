@@ -15,14 +15,12 @@ eval "$(zoxide init zsh)"
 # alias
 alias bat="batcat"
 alias v="nvim"
+alias cd="z"
 
-# exa
-# exa --tree --level=2 rust/rust-ansi-parse
-# exa --ignore-glob="*case*"  
-# exa --ignore-glob="Open*|rot??.sh|*case*"
-alias el="exa -l --header --icons"   
-alias ls="exa -l --header --icons"   
-alias eg="exa --long --git"
+# eza
+alias el="eza -l --header --icons"   
+alias ls="eza --icons=always"
+alias eg="eza --long --git"
 
 # git
 alias gp="git push"
