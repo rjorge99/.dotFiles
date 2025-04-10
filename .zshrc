@@ -32,8 +32,6 @@ alias ga="git add"
 alias gcmsg="git commit -m"
 alias gca="git commit --amend"
 
-
-
 #tmux
 alias tm="tmux"
 alias tma="tmux attach"
@@ -50,6 +48,10 @@ setopt share_history
 setopt hist_expire_dups_first
 setopt hist_ignore_dups
 setopt hist_verify
+
+# Reemplaza Tab por aceptar la sugerencia
+bindkey '^I' autosuggest-accept
+
 # completion using arrow keys (based on history)
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
