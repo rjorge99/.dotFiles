@@ -19,7 +19,7 @@ alias cd="z"
 
 # eza
 alias el="eza -l --header --icons"   
-alias ls="eza --icons=always"
+alias ls="eza --icons=always --group-directories-first "
 alias eg="eza --long --git"
 
 # git
