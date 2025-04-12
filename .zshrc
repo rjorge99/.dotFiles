@@ -2,6 +2,8 @@
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh          # zsh-autosuggestions
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  # zsh-syntax-highlighting
 
+alias tmux="tmux -f ~/.config/tmux/.tmux.conf"  # Define la configuración de tmux en otro archivo
+
 # nvm (Node Version Manager)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                    # This loads nvm
